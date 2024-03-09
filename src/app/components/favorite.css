@@ -1,0 +1,21 @@
+.targeta{
+    margin:30px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center; 
+    gap: 20px;  
+    perspective: 1000px;
+}
+.container-search {
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+ 
