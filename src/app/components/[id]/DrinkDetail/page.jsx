@@ -77,7 +77,7 @@ const Detalles = () => {
                     <Typography> Instrucciones: {item.strInstructions}</Typography>
                  </div>
                  <button className='btn' onClick={deleteOneDrink}>Delete</button>
-                 <button className='btn' >Back</button>
+                  
             </Container>
                  
           )) : <h5>No se encontraron resultados</h5>}
